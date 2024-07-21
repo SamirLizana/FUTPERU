@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futperu-Inicio</title>
+    <link rel="stylesheet" href="css/zapatilla.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="img/inicio/logo.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="inicio.html">INICIO</a></li>
+                    <li><a href="zapatilla.html">ZAPATILLAS</a></li>
+                    <li><a href="camisetas.html">CAMISETAS</a></li>
+                    <li><a href="">ACCESORIOS</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="iniciosesion.html" class="login-button">Iniciar Sesion</a>
+                <a href="" class="signup-button">Registrar</a>
+            </div>
+        </div>
+    </header>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="img/inicio/baner1.png" alt=""">
+            </div>
+            <div class="slide">
+                <img src="img/inicio/baner2.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/inicio/baner3.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/inicio/baner4.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- <button class="filter-button" onclick="toggleFilter()">Filtro de Búsqueda</button>
+    <div id="filter-container" class="filter-container hidden">
+        <form id="filter-form">
+            <div class="filter-group">
+                <label for="tipo">Tipo:</label>
+                <select id="tipo" name="tipo">
+                    <option value="">Seleccione</option>
+                    <option value="chimpunes">Chimpunes</option>
+                    <option value="sintetica">Sintética</option>
+                    <option value="futsal">Futsal</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="marca">Marca:</label>
+                <select id="marca" name="marca">
+                    <option value="">Seleccione</option>
+                    <option value="marca1">Adidas</option>
+                    <option value="marca2">Nike</option>
+                    <option value="marca3">Puma</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="talla">Talla:</label>
+                <select id="talla" name="talla">
+                    <option value="">Seleccione</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo">
+                    <option value="">Seleccione</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                </select>
+            </div>
+            <button type="button" onclick="applyFilter()">Buscar</button>
+        </form>
+    </div> -->
+    <div class="product-section">
+        <h2 class="ti">CHIMPUNES</h2>
+        <div class="card-container">
+            <div class="card con" data-tipo="chimpunes" data-marca="Adidas" data-talla="L" data-sexo="Masculino">
+                <img src="img/zapatillas/chimpunes1.1.webp" class="card-img-top" alt="Chimpunes Adidas">
+                <div class="card-body">
+                    <h5 class="card-title">Chimpunes Adidas</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+            </div>
+            <div class="card con" data-tipo="chimpunes" data-marca="Nike" data-talla="L" data-sexo="Masculino">
+                <img src="img/zapatillas/chimpunes1.2.webp" class="card-img-top" alt="Chimpunes Nike">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+            </div>
+            <div class="card con">
+                <img src="img/zapatillas/chimpunes1.3.webp" class="card-img-top" alt="Chimpunes Nike">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+            </div>
+            <div class="card con">
+                <img src="img/zapatillas/chimpuns1.4.webp" class="card-img-top" alt="Chimpunes Puma">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <h2 class="ti">SINTÉTICA</h2>
+        <div class="card-container">
+            <div class="card con">
+                <img src="img/zapatillas/sintetica1.1.webp" class="card-img-top" alt="Sintética Nike">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+            </div>
+            <div class="card con" data-tipo="sintetica" data-marca="Nike" data-talla="L" data-sexo="Masculino">
+                <img src="img/zapatillas/sintetica1.2.webp" class="card-img-top" alt="Sintética Nike">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+            </div>
+            <div class="card con" data-tipo="sintetica" data-marca="Puma" data-talla="L" data-sexo="Masculino">
+                <img src="img/zapatillas/sintetica1.3.webp" class="card-img-top" alt="Sintética Puma">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+            </div>
+            <div class="card con" data-tipo="sintetica" data-marca="Puma" data-talla="L" data-sexo="Femenino">
+                <img src="img/zapatillas/sintetica1.4.webp" class="card-img-top" alt="Sintética Puma">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <h2 class="ti">FUTSAL</h2>
+        <div class="card-container">
+            <div class="card con" data-tipo="futsal" data-marca="Nike" data-talla="L" data-sexo="Masculino">
+                <img src="img/zapatillas/futsal1.1.webp" class="card-img-top" alt="Futsal Nike">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+            </div>
+            <div class="card con" data-tipo="futsal" data-marca="Puma" data-talla="L" data-sexo="Masculino">
+                <img src="img/zapatillas/futsal1.2.webp" class="card-img-top" alt="Futsal Puma">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+            </div>
+            <div class="card con" data-tipo="futsal" data-marca="Adidas" data-talla="L" data-sexo="Masculino">
+                <img src="img/zapatillas/futsal1.3.webp" class="card-img-top" alt="Futsal Adidas">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+            </div>
+            <div class="card con" data-tipo="futsal" data-marca="Adidas" data-talla="L" data-sexo="Femenino">
+                <img src="img/zapatillas/futsal1.4.webp" class="card-img-top" alt="Futsal Adidas">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="social-media">
+            <a href="#"><img src="img/inicio/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="img/inicio/pinterest.png" alt="Instagram"></a>
+            <a href="#"><img src="img/inicio/instagram.jpg" alt="TikTok"></a>
+            <a href="#"><img src="img/inicio/tiktok.png" alt="Pinterest"></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 <span>Website</span>. All rights</p>
+        </div>
+        <div class="footer-links">
+            <a href="#">términos y condiciones</a>
+            <a href="#">política y privacidad</a>
+            <a href="#">acerca de nosotros</a>
+            <a href="#">contáctenos</a>
+        </div>
+    </footer>
+    <!-- <script>
+        function toggleFilter() {
+            const filterContainer = document.getElementById('filter-container');
+            filterContainer.classList.toggle('hidden');
+        }
+
+        function applyFilter() {
+            const tipo = document.getElementById('tipo').value;
+            const marca = document.getElementById('marca').value;
+            const talla = document.getElementById('talla').value;
+            const sexo = document.getElementById('sexo').value;
+
+            const items = document.querySelectorAll('.con');
+
+            items.forEach(item => {
+                const itemTipo = item.getAttribute('data-tipo');
+                const itemMarca = item.getAttribute('data-marca');
+                const itemTalla = item.getAttribute('data-talla');
+                const itemSexo = item.getAttribute('data-sexo');
+
+                if ((tipo === '' || itemTipo === tipo) &&
+                    (marca === '' || itemMarca === marca) &&
+                    (talla === '' || itemTalla === talla) &&
+                    (sexo === '' || itemSexo === sexo)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+    </script> -->
+</body>
+</html>
